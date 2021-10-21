@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.fa-bars {
+    color: #fff !important;
+    font-size: 40px !important;
+    border: 0;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+    box-shadow: none !important;
+    text-decoration: none;
+
+}
+
+#work .col-md-3 i {
+    font-size: 80px;
+    color: #0066ff;
+    margin-bottom: 30px;
+}
+
+#work .col-md-3 .raqam {
+    color: white;
+    position: relative;
+    left: 44%;
+    background: #0066ff;
+    border-radius: 50%;
+    width: 12%;
+    height: 12%;
+    margin-bottom: 30px;
+}
+
+.div {
+    margin-left: 15px;
+    width: 270px;
+    height: 230px;
+}
+
+@media only screen and (max-width:760px) {
+    .div {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .brend .row .col-md-3 img{
+        margin: 0 auto;
+    }
+}
